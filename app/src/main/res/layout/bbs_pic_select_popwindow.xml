@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout_dismiss_pop1"
+        android:alpha="0.5"
+        android:background="@color/background_grey"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:alpha="0.5"
+            android:background="@color/background_grey"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></LinearLayout>
+
+        <LinearLayout
+            android:background="@drawable/background_sketch_grey"
+            android:orientation="vertical"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="8">
+            <TextView
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:background="@color/most_black"
+                android:textColor="@color/white"
+                android:text="  选择图片方式"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <View
+                android:background="@color/item_line_gray"
+                android:layout_width="match_parent"
+                android:layout_height="1px"></View>
+            <TextView
+                android:id="@+id/textView_selpic"
+                android:background="@drawable/layout_pressed_orange"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:textColor="@color/most_black"
+                android:text="  选择照片"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <View
+                android:background="@color/item_line_gray"
+                android:layout_width="match_parent"
+                android:layout_height="1px"></View>
+            <TextView
+                android:id="@+id/textView_takepic"
+                android:background="@drawable/layout_pressed_orange"
+                android:textSize="20sp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:textColor="@color/most_black"
+                android:text="  拍照"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:alpha="0.5"
+            android:background="@color/background_grey"
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"></LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:id="@+id/linearLayout_dismiss_pop2"
+        android:alpha="0.5"
+        android:background="@color/background_grey"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"></LinearLayout>
+</LinearLayout>

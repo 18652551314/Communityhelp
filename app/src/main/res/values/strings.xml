@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">"社区帮帮调试版"</string>
+    <string name="title_activity_registion_send_require">RegistionSendRequireActivity</string>
+</resources>

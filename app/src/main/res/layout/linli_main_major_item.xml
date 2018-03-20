@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <com.example.administrator.communityhelp.my_other.CircularImage
+        android:id="@+id/image_linliquan"
+        android:layout_width="157px"
+        android:layout_height="157px" />
+
+    <TextView
+        android:id="@+id/text_linliquan_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15px"
+        android:textSize="17sp" />
+
+
+</LinearLayout>

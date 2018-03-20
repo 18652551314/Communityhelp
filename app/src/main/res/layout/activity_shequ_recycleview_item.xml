@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#f0f0f0"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200px"
+        android:layout_marginLeft="10px"
+        android:layout_marginRight="10px"
+        android:layout_marginTop="5px"
+        android:layout_marginBottom="5px"
+        android:background="#f0f0f0"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/set_shap"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/recycler_image"
+                android:layout_width="220px"
+                android:layout_height="180px"
+                android:scaleType="fitXY"
+                android:layout_margin="10px"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:gravity="center_vertical"
+                    android:text="活动名称"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:textColor="@color/most_black" />
+
+                <TextView
+                    android:id="@+id/textView_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="0.5"
+                    android:textSize="18px"
+                    android:gravity="center_vertical"
+                    android:text="时间" />
+
+                <TextView
+                    android:id="@+id/textView_referral"
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical"
+                    android:maxLines="2"
+                    android:text="内容" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

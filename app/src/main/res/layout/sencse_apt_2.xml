@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/ershou_ll_2">
+
+    <android.support.v7.widget.CardView
+        android:layout_margin="10px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px"
+        app:cardBackgroundColor="#ffffff"
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150px">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true">
+
+                    <com.example.administrator.communityhelp.my_other.CircularImage
+                        android:id="@+id/sencse_apt_2_headimgurl"
+                        android:layout_width="100px"
+
+
+                        android:layout_height="100px"
+                        android:layout_marginLeft="30px"
+                         />
+
+                    <TextView
+                        android:id="@+id/sencse_apt_2_userName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30px"
+                        android:layout_toRightOf="@+id/sencse_apt_2_headimgurl"
+
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/sencse_apt_2_creatTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/sencse_apt_2_headimgurl"
+                        android:layout_marginLeft="30px"
+                        android:layout_toRightOf="@+id/sencse_apt_2_headimgurl"
+
+                        android:textColor="@color/item_line_gray" />
+                </RelativeLayout>
+                <TextView
+                    android:layout_marginTop="10px"
+                    android:textColor="@color/Green"
+                    android:id="@+id/textView_secondHandDelete2"
+                    android:layout_marginRight="60px"
+                    android:text="删除"
+                    android:textSize="17sp"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <ImageView
+                    android:id="@+id/imageView_checkState_secondHand2"
+                    android:layout_marginRight="40px"
+                    android:layout_marginTop="70px"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="108px"
+                    android:layout_height="41px" />
+            </RelativeLayout>
+            <View
+                android:background="@color/item_line_gray"
+                android:layout_width="match_parent"
+                android:layout_height="2px">
+
+            </View>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20px"
+                android:layout_marginLeft="30px"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/sencse_apt_2_title"
+                    android:textColor="@color/black"
+                    android:textSize="15sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="起点:" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20px"
+                android:layout_marginLeft="30px"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/sencse_apt_2_content"
+                    android:gravity="top"
+                    android:lines="2"
+                    android:ellipsize="end"
+                    android:textSize="15sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="出发时间:" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20px"
+                android:layout_marginLeft="30px"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/sencse_apt_2_contactPhone"
+                    android:textSize="15sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                     />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="100px"
+                android:layout_marginTop="20px"
+                android:layout_marginLeft="30px"
+                >
+
+               <LinearLayout
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:orientation="horizontal"
+                   android:layout_alignParentRight="true"
+                   android:layout_alignParentBottom="true">
+                   <ImageView
+                       android:id="@+id/ershou_huifu_iv_2"
+                       android:background="@mipmap/wdlt"
+                       android:layout_marginBottom="20px"
+                       android:layout_marginRight="20px"
+                       android:layout_alignParentRight="true"
+                       android:layout_marginLeft="20px"
+                       android:layout_alignParentBottom="true"
+                       android:layout_toLeftOf="@+id/sencse_apt_2_replyNum"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/sencse_apt_2_replyNum"
+                    android:layout_marginBottom="20px"
+                    android:layout_marginRight="40px"
+
+                    android:textSize="15sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="郑州" />
+
+               </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:background="#35bbb0">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="22px"
+            android:background="@mipmap/back" />
+
+        <TextView
+            android:id="@+id/textview_back_forum_detailed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="52px"
+            android:text="返回"
+            android:textColor="#ffff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="论坛详情"
+            android:textColor="#ffff"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="11"
+        android:background="@color/background_grey">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20px"
+                android:paddingLeft="40px"
+                android:paddingRight="40px"
+                android:background="@drawable/shape_backgroud_white">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="120px">
+
+                    <com.example.administrator.communityhelp.my_other.CircularImage
+                        android:id="@+id/iv_forum_detailed"
+                        android:layout_width="110px"
+                        android:layout_height="110px"
+                        android:layout_centerVertical="true"
+                         />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="40px"
+                        android:layout_toRightOf="@+id/iv_forum_detailed"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_forum_detailed_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10px"
+                            android:text="秦" />
+
+                        <TextView
+                            android:id="@+id/tv_forum_detailed_time"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="20px"
+                            android:text="2016-08-23 16:22:41"
+                            android:textColor="@color/text_gray"
+                            />
+
+                    </LinearLayout>
+                    <View
+                        android:layout_alignParentBottom="true"
+                        android:layout_height="1px"
+                        android:layout_width="match_parent"
+                        android:background="@color/text_gray"
+                        />
+                </RelativeLayout>
+
+               <TextView
+                   android:layout_marginTop="20px"
+                   android:id="@+id/tv_forum_detailed_title"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:text="fsafasdfa"/>
+
+                <TextView
+                    android:id="@+id/tv_forum_detailed_context"
+                    android:layout_marginTop="30px"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="fsafasdfa"/>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:padding="20px"
+                    android:layout_weight="2.73"
+                    android:orientation="vertical">
+                <android.support.v4.view.ViewPager
+                android:id="@+id/tv_forum_detailed_picture"
+                android:layout_marginLeft="20px"
+                android:layout_marginRight="20px"
+                android:layout_width="match_parent"
+                android:layout_height="400px"/>
+                <LinearLayout
+                    android:id="@+id/linearLayout_forum"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:gravity="center"
+                    android:orientation="horizontal"></LinearLayout>
+                </RelativeLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60px">
+                    <RelativeLayout
+                        android:layout_height="match_parent"
+                        android:layout_width="520px">
+                        <RelativeLayout
+                            android:layout_alignParentRight="true"
+                            android:layout_height="match_parent"
+                            android:layout_width="wrap_content">
+                            <ImageView
+                                android:id="@+id/iv_forum_detailed_dianzan"
+                                android:layout_centerVertical="true"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@mipmap/zan1"/>
+                            <TextView
+                                android:layout_toRightOf="@+id/iv_forum_detailed_dianzan"
+                                android:layout_centerVertical="true"
+                                android:id="@+id/tv_forum_detailed_dianzan"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="1"/>
+                        </RelativeLayout>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent">
+                        <RelativeLayout
+                            android:layout_marginLeft="20px"
+                            android:layout_height="match_parent"
+                            android:layout_width="wrap_content">
+                            <ImageView
+                                android:id="@+id/iv_forum_detailed_mess"
+                                android:layout_centerVertical="true"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@mipmap/hf"/>
+                            <TextView
+                                android:layout_toRightOf="@+id/iv_forum_detailed_mess"
+                                android:layout_centerVertical="true"
+                                android:id="@+id/tv_forum_detailed_mess"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="1"/>
+
+                        </RelativeLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_alignParentBottom="true"
+                    android:layout_height="1px"
+                    android:layout_width="match_parent"
+                    android:background="@color/text_gray"
+                    />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+</LinearLayout>

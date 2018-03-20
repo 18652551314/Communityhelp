@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="top"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1.5">
+    <TextView
+        android:textColor="@color/black"
+        android:layout_width="770px"
+        android:layout_height="100px"
+        android:layout_marginLeft="50px"
+        android:gravity="center_vertical"
+        android:text="请选择分类"
+        android:textSize="25sp" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10px"
+        android:layout_marginTop="0px"
+        android:background="#8da7fc">
+
+    </View>
+    <RelativeLayout
+        android:id="@+id/second_popu_shuma"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1">
+        <TextView
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="100px"
+            android:layout_marginLeft="50px"
+            android:gravity="center_vertical"
+            android:text="数码产品"
+            android:textSize="20sp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_marginTop="0px"
+        android:background="@color/item_line_gray">
+
+    </View>
+    <RelativeLayout
+        android:id="@+id/second_popu_yinxiang"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1">
+        <TextView
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="100px"
+            android:layout_marginLeft="50px"
+            android:gravity="center_vertical"
+            android:text="音像"
+            android:textSize="20sp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_marginTop="0px"
+        android:background="@color/item_line_gray">
+
+    </View>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:id="@+id/second_popu_baojian"
+        android:layout_weight="1">
+        <TextView
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="100px"
+            android:layout_marginLeft="50px"
+            android:gravity="center_vertical"
+            android:text="美容保健"
+            android:textSize="20sp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_marginTop="0px"
+        android:background="@color/item_line_gray">
+
+    </View>
+    <RelativeLayout
+        android:id="@+id/second_popu_jiaju"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1">
+        <TextView
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="100px"
+            android:layout_marginLeft="50px"
+            android:gravity="center_vertical"
+            android:text="家居日用品"
+            android:textSize="20sp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_marginTop="0px"
+        android:background="@color/item_line_gray">
+
+    </View>
+    <RelativeLayout
+        android:id="@+id/second_popu_muying"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1">
+        <TextView
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="100px"
+            android:layout_marginLeft="50px"
+            android:gravity="center_vertical"
+            android:text="母婴用品"
+            android:textSize="20sp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_marginTop="0px"
+        android:background="@color/item_line_gray">
+
+    </View>
+    <RelativeLayout
+        android:id="@+id/second_popu_fushi"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1">
+        <TextView
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="100px"
+            android:layout_marginLeft="50px"
+            android:gravity="center_vertical"
+            android:text="服饰用品"
+            android:textSize="20sp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_marginTop="0px"
+        android:background="@color/item_line_gray">
+
+    </View>
+    <RelativeLayout
+        android:id="@+id/second_popu_jiadian"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1">
+        <TextView
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="100px"
+            android:layout_marginLeft="50px"
+            android:gravity="center_vertical"
+            android:text="家具家电"
+            android:textSize="20sp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_marginTop="0px"
+        android:background="@color/item_line_gray">
+
+    </View>
+    <RelativeLayout
+        android:id="@+id/second_popu_bangong"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1">
+        <TextView
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="100px"
+            android:layout_marginLeft="50px"
+            android:gravity="center_vertical"
+            android:text="办公用品"
+            android:textSize="20sp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_marginTop="0px"
+        android:background="@color/item_line_gray">
+
+    </View>
+    <RelativeLayout
+        android:id="@+id/second_popu_qita"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1">
+        <TextView
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="100px"
+            android:layout_marginLeft="50px"
+            android:gravity="center_vertical"
+            android:text="其他"
+            android:textSize="20sp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:layout_marginTop="0px"
+        android:background="@color/item_line_gray">
+
+    </View>
+    <LinearLayout
+        android:id="@+id/second_popu_quxiao"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_height="0px"
+        android:layout_weight="1.5">
+        <TextView
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="100px"
+            android:text="取消"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/background_grey"
+    android:id="@+id/pinche_linear">
+
+    <android.support.v7.widget.CardView
+        android:layout_margin="10px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20px"
+        android:id="@+id/pinche_card"
+        android:layout_marginRight="20px"
+        app:cardBackgroundColor="#ffffff"
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150px">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true">
+
+                    <com.example.administrator.communityhelp.my_other.CircularImage
+                        android:id="@+id/pinche_iv1"
+                        android:layout_width="100px"
+
+
+                        android:layout_height="100px"
+                        android:layout_marginLeft="30px"
+                         />
+
+                    <TextView
+                        android:id="@+id/pinche_tv_id"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30px"
+                        android:layout_toRightOf="@+id/pinche_iv1"
+
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/carpooling_main_zck_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/pinche_iv1"
+                        android:layout_marginLeft="30px"
+                        android:layout_toRightOf="@+id/pinche_iv1"
+
+                        android:textColor="@color/item_line_gray" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <View
+                android:background="@color/item_line_gray"
+                android:layout_width="match_parent"
+                android:layout_height="2px">
+
+            </View>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_weight="4"
+                    android:orientation="vertical"
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20px"
+                        android:layout_marginLeft="30px"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="起点:" />
+                        <TextView
+                            android:id="@+id/carpooling_main_zck_startdian"
+                            android:layout_marginLeft="20px"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20px"
+                        android:layout_marginLeft="30px"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="终点:" />
+                        <TextView
+                            android:id="@+id/carpooling_main_zck_enddian"
+                            android:layout_marginLeft="20px"
+                            android:textColor="@color/black"
+                            android:textSize="15sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20px"
+                        android:layout_marginLeft="30px"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:textSize="15sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="出发时间:" />
+                        <TextView
+                            android:layout_marginLeft="20px"
+                            android:id="@+id/carpooling_main_zck_startTime"
+                            android:textSize="15sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20px"
+                        android:layout_marginLeft="30px"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:textSize="15sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="联系人:" />
+                        <TextView
+                            android:layout_marginLeft="20px"
+                            android:id="@+id/carpooling_main_zck_contact"
+                            android:textSize="15sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20px"
+                        android:layout_marginLeft="30px"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:textSize="15sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="联系电话:" />
+                        <TextView
+                            android:layout_marginLeft="20px"
+                            android:id="@+id/carpooling_main_zck_contactPhone"
+                            android:textSize="15sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20px"
+                        android:layout_marginLeft="30px"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:textSize="15sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="车辆描述:" />
+                        <TextView
+                            android:layout_marginLeft="20px"
+                            android:id="@+id/carpooling_main_zck_carInfo"
+                            android:textSize="15sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="20px"
+                        android:layout_marginLeft="30px"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:textSize="15sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="描述:" />
+                        <TextView
+                            android:layout_marginLeft="20px"
+                            android:id="@+id/carpooling_main_zck_content"
+                            android:textSize="15sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:singleLine="true"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/textView_carpoolDelete"
+                        android:layout_marginTop="120px"
+                        android:textColor="@color/Green"
+                        android:textSize="17sp"
+                        android:text="删除"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <ImageView
+                        android:id="@+id/imageView_checkState_carpool"
+                        android:layout_marginTop="20px"
+                        android:layout_width="108px"
+                        android:layout_height="41px" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:background="#35bbb0">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="22px"
+            android:background="@mipmap/back" />
+
+        <TextView
+            android:id="@+id/textview_back_tourism_detailed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="52px"
+            android:text="返回"
+            android:textColor="#ffff"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="自助旅游"
+            android:textColor="#ffff"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="11"
+        android:layout_margin="10px"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px"
+        android:background="#ffffff">
+
+      <ScrollView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:padding="20px"
+                android:layout_weight="2.73"
+                android:orientation="vertical">
+            <android.support.v4.view.ViewPager
+                android:id="@+id/tv_recruit_detailed_picture"
+                android:layout_width="match_parent"
+                android:layout_height="300px"
+                android:layout_marginTop="20px"
+                android:layout_marginLeft="70px"
+                android:layout_marginRight="70px" />
+            <LinearLayout
+                android:id="@+id/linearLayout_tourism"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:gravity="center"
+                android:orientation="horizontal"></LinearLayout>
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30px"
+                android:layout_marginTop="40px"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="标题：  "
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+                <TextView
+                    android:id="@+id/tourism_tit_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="嵩山一日游"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="17px"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="30px"
+                android:background="@color/item_line_gray"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30px"
+                android:layout_marginTop="17px"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="联系人：  "
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+                <TextView
+                    android:id="@+id/tourism_ren_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="胡歌"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="17px"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="30px"
+                android:background="@color/item_line_gray"/>
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30px"
+                android:layout_marginTop="17px"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="联系电话：  "
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+                <TextView
+                    android:id="@+id/tourism_dianhua_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1212121212121"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:layout_marginTop="17px"
+                android:layout_marginLeft="30px"
+                android:layout_marginRight="30px"
+                android:background="@color/item_line_gray"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30px"
+                android:layout_marginTop="17px"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tourism_neirong"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="昨晚在朋友圈看到不少人刷屏，说是微信新推出了微信小程序。这名字听起来倒是蛮有点小清新的感觉。其实就是之前一直神神秘秘的应用号。只是换了一个更接地气的名字。
+
+
+由于现在只是内测，只发出了100个内部测试资格。老卢，作为一个普通的技术人员，没有拿得出手的公众号，自然是没有这个机会了。但这并不妨碍我们对小程序的期待和热情。
+
+
+微信小程序是啥？
+
+
+简单说，它就是一个可以实现之前只能是原生态APP可以实现的效果和功能。比如说，一些酷炫的页面与转场，一些可以直接和手机硬件交互的功能，录音啊，拍视频啊，调用手机的重力感应啊，GPS啊等等。
+
+
+这在之前的网页开发中，是不可想象的。这里能想象的空间太大了。
+
+
+设想一下，有了微信小程序，你可以开发一个滴滴打车的功能。利用GPS，可以知道司机在哪，乘客在哪。程序可以就近给乘客安排司机。完成交易后，再利用微信支持接口完成支付。
+
+
+当然要简单实现功能不难，怎么做好细节和用户体验，怎么能在激烈的市场竞争中胜出。这个比技术实现本身复杂太多。但至少微信小程序给了我们这个期待。
+
+
+再比如利用手机重力感应模块，我们可以利用HTML5开发一些有意思的小游戏，比如赛车啊，打球啊，之类的。
+
+
+
+作者：卢伍
+链接：https://www.zhihu.com/question/50880960/answer/123110040
+来源：知乎
+著作权归作者所有，转载请联系作者获得授权。"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/carpooling_details_relativelayout"
+                android:layout_width="660px"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true">
+
+                    <ImageView
+                        android:id="@+id/iv_tourism_detailed_mess"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:background="@mipmap/hf" />
+
+                    <TextView
+                        android:id="@+id/tv_tourism_detailed_mess"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/iv_tourism_detailed_mess"
+                        android:text="1" />
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:layout_marginTop="10px"
+                android:background="@color/item_line_gray" />
+
+            <ListView
+                android:id="@+id/carpooling_details_listview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

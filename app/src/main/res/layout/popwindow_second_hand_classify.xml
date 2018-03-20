@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/second_hand_blank"
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:alpha="0.6"
+        android:background="@color/most_black"
+        android:orientation="horizontal" />
+
+    <LinearLayout
+        android:layout_width="0px"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:background="@color/click_gray">
+
+        <LinearLayout
+            android:background="@color/yancy_grey100"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/second_hand_all"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/fenlei_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="40px"
+                    android:fillViewport="false"
+                    android:text="全部"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5px"
+                android:background="@color/font_gray" />
+
+            <RelativeLayout
+                android:id="@+id/second_hand_shumachanping"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/fenlei_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="40px"
+                    android:fillViewport="false"
+                    android:text="数码产品"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5px"
+                android:background="@color/font_gray" />
+
+            <RelativeLayout
+                android:id="@+id/second_hand_MP3"
+                android:layout_width="match_parent"
+
+                android:layout_height="0px"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/fenlei_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="40px"
+                    android:fillViewport="false"
+                    android:text="音像"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5px"
+                android:background="@color/font_gray" />
+
+            <RelativeLayout
+                android:id="@+id/second_hand_meirongbaojian"
+                android:layout_width="match_parent"
+
+                android:layout_height="0px"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/fenlei_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="40px"
+                    android:fillViewport="false"
+                    android:text="美容保健"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5px"
+                android:background="@color/font_gray" />
+
+            <RelativeLayout
+                android:id="@+id/second_hand_jiajuriyongpin"
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/fenlei_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="40px"
+                    android:fillViewport="false"
+                    android:text="家具日用品"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5px"
+                android:background="@color/font_gray" />
+
+            <RelativeLayout
+                android:id="@+id/second_hand_muyingyongpin"
+                android:layout_width="match_parent"
+
+                android:layout_height="0px"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/fenlei_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="40px"
+                    android:fillViewport="false"
+                    android:text="母婴用品"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5px"
+                android:background="@color/font_gray" />
+
+            <RelativeLayout
+                android:id="@+id/second_hand_fushiyongpin"
+                android:layout_width="match_parent"
+
+                android:layout_height="0px"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/fenlei_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="40px"
+                    android:fillViewport="false"
+                    android:text="服饰用品"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5px"
+                android:background="@color/font_gray" />
+
+            <RelativeLayout
+                android:id="@+id/second_hand_jiajujiadian"
+                android:layout_width="match_parent"
+
+                android:layout_height="0px"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/fenlei_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="40px"
+                    android:fillViewport="false"
+                    android:text="家具家电"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5px"
+                android:background="@color/font_gray" />
+
+            <RelativeLayout
+                android:id="@+id/second_hand_bangongyongpin"
+                android:layout_width="match_parent"
+
+                android:layout_height="0px"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/fenlei_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="40px"
+                    android:fillViewport="false"
+                    android:text="办公用品"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5px"
+                android:background="@color/font_gray" />
+
+            <RelativeLayout
+                android:id="@+id/second_hand_other"
+                android:layout_width="match_parent"
+
+                android:layout_height="0px"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/fenlei_10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="40px"
+                    android:fillViewport="false"
+                    android:text="其他"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1.5px"
+                android:background="@color/font_gray" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="1"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="0.8"></LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

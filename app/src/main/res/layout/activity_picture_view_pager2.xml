@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.communityhelp.thirdpage.publication.bbs.PictureViewPagerActivity">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="11"
+        android:background="@color/most_black">
+
+        <com.example.administrator.communityhelp.my_other.BigPhotoViewPager
+            android:id="@+id/viewPager_bbsPictureShow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="100px"
+            android:layout_marginLeft="20px"
+            android:layout_marginRight="20px"
+            android:layout_marginTop="100px"></com.example.administrator.communityhelp.my_other.BigPhotoViewPager>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="120px"
+            android:gravity="center">
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/imageView_viewPagerProgress1"
+                android:layout_width="10px"
+                android:layout_height="10px"
+                android:layout_margin="5px"
+                android:background="@drawable/circlesmall" />
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/imageView_viewPagerProgress2"
+                android:layout_width="10px"
+                android:layout_height="10px"
+                android:layout_margin="5px"
+                android:background="@drawable/circlesmall" />
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/imageView_viewPagerProgress3"
+                android:layout_width="10px"
+                android:layout_height="10px"
+                android:layout_margin="5px"
+                android:background="@drawable/circlesmall" />
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/imageView_viewPagerProgress4"
+                android:layout_width="10px"
+                android:layout_height="10px"
+                android:layout_margin="5px"
+                android:background="@drawable/circlesmall" />
+
+            <ImageView
+                android:visibility="gone"
+                android:id="@+id/imageView_viewPagerProgress5"
+                android:layout_width="10px"
+                android:layout_height="10px"
+                android:layout_margin="5px"
+                android:background="@drawable/circlesmall" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

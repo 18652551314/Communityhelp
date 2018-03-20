@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:background="#35bbb0"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="0px"
+            android:layout_height="50px"
+            android:layout_margin="20px"
+            android:layout_weight="0.4"
+            android:background="@mipmap/fh" />
+
+        <TextView
+            android:id="@+id/payActivity_backOrder"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="返回"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/textView_title"
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="9"
+            android:gravity="center"
+            android:text="支付成功"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:layout_weight="3" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="12"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:layout_marginTop="50px"
+            android:layout_weight="1"
+            android:background="@drawable/shape_backgroud_paysuccess"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0px"
+                    android:layout_weight="2.5"
+                    android:layout_height="match_parent" />
+
+                <ImageView
+                    android:layout_width="0px"
+                    android:layout_weight="0.8"
+                    android:layout_margin="10px"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/sq_zfcg" />
+
+                <TextView
+                    android:layout_width="0px"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.5"
+                    android:layout_marginLeft="20px"
+                    android:textSize="20sp"
+                    android:textColor="@color/red"
+                    android:text="支付成功" />
+
+                <TextView
+                    android:layout_width="0px"
+                    android:layout_weight="1.5"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_weight="1"
+                android:layout_marginLeft="80px"
+                android:layout_marginRight="80px"
+                android:text="亲，稍后配送人员将与您联系，请保持手机畅通，如有疑问请拨打4006406899" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="2"></LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

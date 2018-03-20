@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="27px">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    <com.example.administrator.communityhelp.my_other.CircularImage
+        android:id="@+id/carpooling_details_IDpicture"
+        android:layout_height="100px"
+        android:layout_width="100px"
+
+        />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_toRightOf="@+id/carpooling_details_IDpicture"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+        <RelativeLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView
+                android:id="@+id/carpooling_details_information_title"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+
+                android:layout_marginLeft="30px"
+                android:textSize="18sp"
+                android:textColor="@color/blue"/>
+            <TextView
+                android:id="@+id/carpooling_details_information_time"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+
+                android:layout_alignParentRight="true"
+                android:textSize="15sp"
+                android:textColor="@color/text_gray"/>
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/carpooling_details_information_context"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="内容"
+            android:layout_marginTop="17px"
+            android:layout_marginLeft="20px"
+            android:layout_alignParentRight="true"
+            android:textSize="15sp"
+            android:textColor="@color/text_gray"/>
+
+    </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

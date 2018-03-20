@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/lineralayout_transcount"
+    >
+
+    <LinearLayout
+        android:alpha="0.5"
+        android:background="#ababab"
+        android:orientation="vertical"
+        android:id="@+id/head_pop"
+        android:layout_weight="6.5"
+        android:layout_width="match_parent"
+        android:layout_height="0px"></LinearLayout>
+
+    <RelativeLayout
+        android:layout_weight="3.5"
+        android:layout_width="match_parent"
+        android:layout_height="0px">
+        <LinearLayout
+            android:alpha="0.5"
+            android:background="#ababab"
+            android:layout_width="30px"
+            android:layout_height="match_parent"></LinearLayout>
+        <LinearLayout
+            android:alpha="0.5"
+            android:background="#ababab"
+            android:layout_marginLeft="30px"
+            android:layout_marginRight="30px"
+            android:layout_width="match_parent"
+            android:layout_height="20px"></LinearLayout>
+        <LinearLayout
+            android:layout_alignParentRight="true"
+            android:alpha="0.5"
+            android:background="#ababab"
+            android:layout_width="30px"
+            android:layout_height="match_parent"></LinearLayout>
+        <LinearLayout
+            android:id="@+id/main_pop"
+            android:background="@drawable/btn_style_alert_dialog_background"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0px"
+                android:layout_height="match_parent"></LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/body_pop"
+                android:layout_weight="15"
+                android:orientation="vertical"
+                android:layout_width="0px"
+                android:layout_height="match_parent">
+                <Button
+                    android:layout_weight="1"
+                    android:background="@drawable/pic_button_pressed_normal"
+                    android:id="@+id/btn_take_picture"
+                    android:text="拍照"
+                    android:textSize="40px"
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_gravity="center"
+                    />
+                <Button
+                    android:layout_weight="1"
+                    android:background="@drawable/pic_button_pressed_normal"
+                    android:id="@+id/btn_select_from_loacal"
+                    android:text="从相册选择"
+                    android:textSize="40px"
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_gravity="center"
+                    />
+                <LinearLayout
+                    android:layout_weight="0.3"
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"></LinearLayout>
+                <Button
+                    android:layout_weight="1"
+                    android:background="@drawable/pic_button_pressed_cancel"
+                    android:id="@+id/btn_pic_cancel"
+                    android:text="取消"
+                    android:textSize="40px"
+                    android:layout_width="match_parent"
+                    android:layout_height="0px"
+                    android:layout_gravity="center"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0px"
+                android:layout_height="match_parent"></LinearLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="300px"
+    android:layout_marginLeft="50px"
+    android:layout_marginRight="50px"
+    android:orientation="vertical"
+    android:padding="15px"
+    android:background="@drawable/shape_hint_network"
+>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="2.5"
+            android:background="#000000"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0px"
+                android:layout_marginLeft="25px"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="社区服务"
+                    android:textColor="@color/white"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="@color/font_black">
+
+            </View>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0px"
+                android:layout_marginLeft="30px"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="使用此应用程序需要连接网络，请在设置中开启移动网络或无线网络"
+                    android:textColor="@color/white"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:background="#dcdbdb"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/wangluo_shezhi"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_margin="10px"
+                android:layout_weight="1"
+                android:background="#f7f7f7"
+                android:text="设置" />
+
+            <Button
+                android:id="@+id/wangluo_quxiao"
+                android:layout_width="0px"
+                android:layout_height="match_parent"
+                android:layout_margin="10px"
+                android:layout_weight="1"
+                android:background="#f7f7f7"
+                android:text="取消" />
+        </LinearLayout>
+
+</LinearLayout>

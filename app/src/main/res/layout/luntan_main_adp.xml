@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/luntan_ll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:background="@color/background_grey"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10px"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px"
+        app:cardBackgroundColor="#ffffff"
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150px">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true">
+
+                    <com.example.administrator.communityhelp.my_other.CircularImage
+                        android:id="@+id/luntan_iv1"
+                        android:layout_width="100px"
+                        android:layout_height="100px"
+                        android:layout_marginLeft="30px" />
+
+                    <TextView
+                        android:id="@+id/luntan_tv_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30px"
+                        android:layout_toRightOf="@+id/luntan_iv1"
+                        android:focusable="false"
+                        android:text="LoL选手"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/shequ_shijian_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/luntan_iv1"
+                        android:layout_marginLeft="30px"
+                        android:layout_toRightOf="@+id/luntan_iv1"
+                        android:focusable="false"
+                        android:text="2016-8-20 09:59:08"
+                        android:textColor="@color/item_line_gray" />
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_marginTop="10px"
+                    android:textSize="17sp"
+                    android:id="@+id/textView_bbsDelete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="50px"
+                    android:text="删除"
+                    android:textColor="@color/Green" />
+                <ImageView
+                    android:id="@+id/imageView_bbs_ischeck"
+                    android:layout_marginRight="40px"
+                    android:layout_marginTop="80px"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="108px"
+                    android:layout_height="41px" />
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="2px"
+                android:background="@color/item_line_gray">
+
+            </View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30px"
+                android:layout_marginTop="20px"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/shequ_tit_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:text="起点:"
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20px"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:textSize="15sp" />
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30px"
+                android:layout_marginTop="20px"
+                android:focusable="false"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/shequ_neirong_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:ellipsize="end"
+                    android:focusable="false"
+                    android:gravity="top"
+                    android:inputType="textMultiLine"
+                    android:maxLines="2"
+                    android:minLines="2"
+                    android:text="出发时间:"
+                    android:textSize="15sp" />
+
+
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="100px">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="20px"
+                    android:layout_marginLeft="30px"
+                    android:layout_marginRight="40px"
+                    android:layout_marginTop="20px"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/luntan_iv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@mipmap/zan1" />
+
+                    <TextView
+                        android:id="@+id/dianzan_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20px"
+                        android:text="1"
+                        android:textSize="15sp" />
+
+                    <ImageView
+                        android:id="@+id/luntan_huifu_iv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@mipmap/wdlt" />
+
+                    <TextView
+                        android:id="@+id/luntan_huifu_replyNum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10px"
+                        android:text="0"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

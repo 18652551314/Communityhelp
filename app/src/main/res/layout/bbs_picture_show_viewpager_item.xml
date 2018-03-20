@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/most_black"
+    android:clipChildren="false"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+        <uk.co.senab.photoview.PhotoView
+            android:id="@+id/photoView_bbsPictureShow_item"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:background="@color/black"
+            />
+
+        <!--<以上为设置webview无内容部分为黑色>-->
+
+
+</LinearLayout>

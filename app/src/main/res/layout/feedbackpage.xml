@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:background="#35bbb0">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22px"
+            android:layout_centerVertical="true"
+            android:background="@mipmap/back"/>
+        <TextView
+            android:id="@+id/textview_back_linli"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="返回"
+            android:layout_marginLeft="52px"
+            android:layout_centerVertical="true"
+            android:textSize="20sp"
+            android:textColor="#ffff"/>
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="平台留言"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:textColor="#ffff"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="0px"
+        android:layout_weight="12"
+        android:background="#f0f0f0">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="22px"
+            android:layout_marginLeft="22px"
+            android:lineSpacingExtra="10px"
+            android:textSize="17sp"
+            android:textColor="#35bbb0"
+            android:text="为了给您提供更好的服务，欢迎您提供宝贵的意见和建议。"/>
+        <EditText
+            android:id="@+id/pingtailiuyan_editext"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_backgroud_white"
+            android:gravity="top"
+            android:layout_margin="20px"
+            android:hint="请输入内容"
+            android:inputType="textMultiLine"
+            android:lines="6"
+            android:paddingLeft="5.0dip"
+            android:paddingRight="5.0dip" />
+        <Button
+            android:id="@+id/pingtailiuyan_but"
+            android:layout_width="fill_parent"
+            android:layout_height="50.0dip"
+            android:layout_marginLeft="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_marginTop="10.0dip"
+            android:background="@drawable/background_corp_blue"
+            android:text="提交"
+            android:textColor="#ffffff"
+            android:textSize="23sp" />
+    </LinearLayout>
+</LinearLayout>
